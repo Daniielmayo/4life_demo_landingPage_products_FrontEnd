@@ -60,7 +60,7 @@ export const Login = () => {
     }
 
      
-        
+    // console.log(responseNextAuth);
    router.push("/dashboard/products");
        
    

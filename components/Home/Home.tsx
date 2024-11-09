@@ -116,7 +116,21 @@ export const Home = () => {
           Productos destacados
         </h2>
         <div></div>
-        <div className={styles["home__content-card--featuredProduct"]}>
+        {/* {
+          products ? (
+            products.slice(0, 6).map((product, index) => (
+              <CardProduct
+                src={product.imageProduct}
+                title={product.nameProduct}
+                price={product.price}
+                description={product.descriptionProduct}
+                link4lifeProduct={product.link4lifeProduct}
+                key={index}
+              />
+            ))
+          ) : <p>No hay productos que mostrar</p>
+        } */}
+        {/* <div className={styles["home__content-card--featuredProduct"]}>
           {products.slice(0, 6).map((product, index) => (
             <CardProduct
               src={product.imageProduct}
@@ -127,8 +141,8 @@ export const Home = () => {
               key={index}
             />
           ))}
-        </div>
-        <div className={styles["home__content-button--featuredProduct"]}>
+        </div> */}
+        {/* <div className={styles["home__content-button--featuredProduct"]}>
           <Link
             href={"/products"}
             className={styles["home__button--featuredProduct"]}
@@ -137,7 +151,7 @@ export const Home = () => {
               Ver más productos
             </Button>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div id="buy" className={styles["home__container--buy"]}>
         <h2 className={styles["home__title--buy"]}>Comprar es facíl</h2>
